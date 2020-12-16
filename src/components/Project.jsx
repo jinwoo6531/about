@@ -10,12 +10,12 @@ const projectsList = [
       "영화 소개와 예매를 동시에 이룰 수 있는 프로젝트입니다. React의 함수형 컴포넌트를 사용했으며, 컴포넌트의 Lifecycle을 명시적으로 알 수 있는 메서드를 활용하며 동작원리를 익히기 위한 목적이 컸습니다.  Nodejs + MongoDB를 활용한 백엔드와 RestAPI를 활용한 데이터 저장과 조회를 구현한 프로젝트입니다.",
     link: "https://github.com/jinwoo6531/nomfilx",
     techs: ["React", "Node.js", "MongoDB", "Antd","Material-UI"],
-    thumnail: "/img/dal/landing.png",
+    thumnail: "/img/nomflix/main.png",
     imgs: [
-      "/img/dal/ranking.png",
-      "/img/dal/normal.png",
-      "/img/dal/story.png",
-      "/img/dal/detail.png",
+      "/img/nomflix/main.png",
+      "/img/nomflix/detail.png",
+      "/img/nomflix/booking.png",
+      "/img/nomflix/product.png",
     ],
   },
   {
@@ -25,12 +25,9 @@ const projectsList = [
       "Trello에서 제공하는 기술을 보고 Redux와 드래그 기능을 활용한 개인 프로젝트입니다. State관리를 주 목적으로 공부한 프로젝트입니다.",
     techs: ["React", "Styled-Components"],
     link: "https://jinwoo6531.github.io/KanbanBoard/",
-    thumnail: "/img/netflix/main.png",
+    thumnail: "/img/kanbanboard/main.png",
     imgs: [
-      "/img/netflix/main.png",
-      "/img/netflix/1.png",
-      "/img/netflix/2.png",
-      "/img/netflix/3.png",
+      "/img/kanbanboard/main.png",
     ],
   },
   {
@@ -40,12 +37,9 @@ const projectsList = [
       "React에 Typescript를 사용하는것이 주 목적인 개인 프로젝트입니다. React Hooks의 useReducer를 활용한 state 관리를 사용 하였습니다.",
     techs: ["React", "Typescript"],
     link: "https://jinwoo6531.github.io/typescript_movie_search/",
-    thumnail: "/img/blog/main.png",
+    thumnail: "/img/Movie_Search/main.png",
     imgs: [
-      "/img/blog/main.png",
-      "/img/blog/1.png",
-      "/img/blog/2.png",
-      "/img/blog/3.png",
+      "/img/Movie_Search/main.png",
     ],
   },
   {
@@ -54,8 +48,12 @@ const projectsList = [
     description: "'Storybook Framework에 직접 만든 Grid 컴포넌트를 적용한 개인 프로젝트입니다.",
     techs: ["React","Typescript","Storybook"],
     link: "https://sad-meninsky-70188d.netlify.app",
-    thumnail: "",
-    imgs: ["", "", "", ""],
+    thumnail: "/img/storybook/1.png",
+    imgs: [
+      "/img/storybook/1.png",
+      "/img/storybook/2.png",
+      "/img/storybook/3.png",
+    ],
   },
 ];
 
@@ -84,17 +82,20 @@ const ProjectWrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   .project__gridWrapper {
     width: 800px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
     .project__gridItem {
       position: relative;
       width: 390px;
       height: 300px;
       overflow: hidden;
+      border:3px solid #e31b6d;
 
       &:hover {
         .gridItem__img {
