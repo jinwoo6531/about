@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useRef, useState} from "react";
+import styled from "styled-components";
+import Nav from "./components/Nav";
+import Main from "./components/Main";
+import About from "./components/About";
+import Project from "./components/Project";
+// import Else from "./components/Else";
+
+const AppWrapper = styled.div`
+  position: relative;
+  scroll-behavior: smooth;
+`;
 
 function App() {
+  const app = useRef(null);
+  const [offset, setOffset] = useState({});
+
+  const handleOnScroll = () => {
+    console.log("hi");
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppWrapper className="App" ref={app} onScroll={handleOnScroll}>
+      <Nav offset={offset} />
+      <Main app={app} offset={offset} setOffset={setOffset} />
+      <About setOffset={setOffset} />
+      <Project setOffset={setOffset} />
+      {/* <Else /> */}
+    </AppWrapper>
   );
 }
 
