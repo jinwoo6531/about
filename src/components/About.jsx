@@ -386,7 +386,7 @@ function About({setOffset}) {
           <div className="about__belt --transparent"></div>
           <img
             className="about__profilePhoto"
-            src="/img/920117.jpg"
+            src="/img/profile.png"
             alt="profile"
           />
           <p>
