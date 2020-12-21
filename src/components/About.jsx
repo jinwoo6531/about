@@ -394,7 +394,7 @@ function About({setOffset}) {
             <strong> 직관적</strong>이며, 재밌고<strong> 동적인</strong> UI/UX에
             많은 열정과 관심을 가지고 있습니다.
           </p>
-          <h2>경력</h2>
+          {/* <h2>경력</h2> */}
           {/* <div className="about__personality">
             <img src="/img/달채비.png" alt="" />
             <h3>달채비 / 스타트업</h3>
