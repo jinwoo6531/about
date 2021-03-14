@@ -361,8 +361,8 @@ function About({setOffset}) {
       <ul className="about__values container">
         <li className="about__value">
           <i className="far fa-lightbulb"></i>
-          <h2>Intutive</h2>
-          <p>사용자의 입장에서 직관적인 UI/UX를 개발합니다.</p>
+          <h2>Speedy</h2>
+          <p>사용자의 입장에서 느끼는 빠른 데이터 전달.</p>
         </li>
         <li className="about__value">
           <i className="fas fa-chart-line"></i>
@@ -372,7 +372,7 @@ function About({setOffset}) {
         <li className="about__value">
           <i className="fas fa-rocket"></i>
           <h2>Dynamic</h2>
-          <p>다이나믹한 UX 개발을 좋아합니다.</p>
+          <p>다이나믹한 API 개발을 좋아합니다.</p>
         </li>
         <li className="about__value">
           <i className="far fa-heart"></i>
