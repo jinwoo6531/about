@@ -390,7 +390,7 @@ function About({setOffset}) {
             alt="profile"
           />
           <p>
-            Back-End로 커리어를 쌓아가려하는 개발자입니다. 사용자 입장에서
+            Back-End & Front-end로 커리어를 쌓아가려하는 개발자입니다. 사용자 입장에서
             <strong> 이 웹/앱</strong>이며, 재밌고<strong> 동적인</strong> UI/UX에
             많은 열정과 관심을 가지고 있습니다.
           </p>
