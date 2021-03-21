@@ -413,14 +413,14 @@ function About({setOffset}) {
             <p>
               javascript의 실행 컨텍스트, 스코프, 비동기처리 등을 이해하고
               있으며 DOM 조작과 이벤트 처리에 익숙하기 때문에 javascript를
-              자신있는 언어로 선택했습니다.
+              자신있는 언어로 선택했습니다.(수정필요)
             </p>
           </div>
           <div className="about__tech">
             <i className="fab fa-react"></i>
             <p>
               React의 재사용을 위한 컴포넌트화, Hooks, react-router-dom의 라우터
-              관리, Redux를 활용한 상태관리를 할 수 있습니다.
+              관리, Redux를 활용한 상태관리를 할 수 있습니다.(수정필요)
             </p>
           </div>
           <div className="about__tech">
@@ -428,7 +428,7 @@ function About({setOffset}) {
             <p>
               팀프로젝트에서 협업을 했던 경험이 많은 도움이 됐습니다. 브랜치를 나눠
               작업한 경험과 pull request를 통해 merge하기 전에 코드 검사를
-              수행했습니다.
+              수행했습니다.(수정필요)
             </p>
           </div>
 
