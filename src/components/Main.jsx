@@ -132,9 +132,9 @@ function Main({app, offset, setOffset}) {
     <MainWrapper className="main" ref={main}>
       <div className="main__introduce">
         <p>
-          안녕하세요, 저는 <strong>박진우</strong>입니다.
+          안녕하세요, 저는 박진우입니다.
         </p>
-        <p>저는 풀스택을 지향하는 백엔드 개발자입니다.</p>
+        <p>저는 풀스택을 지향하는 프론트엔드 개발자입니다.</p>
         <button ref={button} onClick={handleOnClick}>
           나에 대해 알아보기
           <FontAwesomeIcon className="arrow" icon={faArrowRight} />

@@ -377,7 +377,7 @@ function About({setOffset}) {
         <li className="about__value">
           <i className="far fa-heart"></i>
           <h2>Affection</h2>
-          <p>마크업에 대한 애정과 자부심이 있습니다.</p>
+          <p>백엔드 개발의 병행을 좋아합니다.</p>
         </li>
       </ul>
       <div className="about__container container">
@@ -389,22 +389,36 @@ function About({setOffset}) {
             src="/img/profile.png"
             alt="profile"
           />
-          {/* <p>
-            Back-End & Front-end로 커리어를 쌓아가려하는 개발자입니다. 사용자 입장에서
-            <strong> 이 웹/앱</strong>이며, 재밌고<strong> 동적인</strong> UI/UX에
+          <p>
+            Back-End & Front-end로 커리어를 쌓아가려하는 개발자입니다. 재밌고<strong> 동적인</strong> UI/UX에
             많은 열정과 관심을 가지고 있습니다.
-          </p> */}
-          {/* <h2>경력</h2> */}
-          {/* <div className="about__personality">
-            <img src="/img/달채비.png" alt="" />
-            <h3>달채비 / 스타트업</h3>
+          </p>
+          <h2>경력</h2>
+          <div className="about__personality">
+            <h3> 플로잉네트웍스 / 스타트업</h3>
           </div>
-          <span>- 유저 데이터 기반으로 여성 생리용품 추천 서비스 플랫폼</span>
+          <span>- 위치기반 꽃 구매 서비스 플랫폼</span>
           <span>
-            - 실제 사용 고객과의 접촉이 많은 서비스 웹으로 최적화 문제 해결
+            - 플로리스트를 중심으로 생각하며 사용하는데 있어 편리한 Admin 페이지 풀스택 개발
           </span>
-          <span>- 반응형 디자인, 크로스 브라우징 이슈 해결</span>
-          <span>- Django서버 유지보수, AWS EC2, RDS 배포작업 수행</span> */}
+          <span>- CORS 이슈 해결</span>
+          <span>- Node.js서버 개발 및 유지보수(Nest.js)</span>
+          <span>- AWS EC2, RDS 배포작업 수행</span>
+          <br/>
+          <div className="about__personality">
+            <h3> 상계백병원(전산팀)</h3>
+          </div>
+          <span>- MSSQL을 이용한 데이터 관리</span>
+          <span>
+            - 닷넷을 통해 병원 프로그램 유지보수
+          </span>
+          <span>- 서버(리눅스)를 이용한 네트워크 관리</span>
+          <br/>
+          <div className="about__personality">
+            <h3> 한국어촌어항협회 </h3>
+          </div>
+          <span>- 대표 홈페이지 프론트 개발 및 유지보수</span>
+
         </div>
 
         <div className="about__teches">
@@ -413,29 +427,27 @@ function About({setOffset}) {
             <p>
               javascript의 실행 컨텍스트, 스코프, 비동기처리 등을 이해하고
               있으며 DOM 조작과 이벤트 처리에 익숙하기 때문에 javascript를
-              자신있는 언어로 선택했습니다.(수정필요)
+              자신있는 언어로 선택했습니다.
             </p>
           </div>
           <div className="about__tech">
             <i className="fab fa-react"></i>
             <p>
               React의 재사용을 위한 컴포넌트화, Hooks, react-router-dom의 라우터
-              관리, Redux를 활용한 상태관리를 할 수 있습니다.(수정필요)
+              관리, Redux를 활용한 상태관리를 할 수 있습니다.
             </p>
           </div>
           <div className="about__tech">
             <i className="fab fa-github"></i>
             <p>
-              팀프로젝트에서 협업을 했던 경험이 많은 도움이 됐습니다. 브랜치를 나눠
-              작업한 경험과 pull request를 통해 merge하기 전에 코드 검사를
-              수행했습니다.(수정필요)
+              현업에서 풀스택 개발을 통해 백엔드와 프론트엔드 개발자간의 협업의 중요성에 대해 이해하고 있습니다. 
             </p>
           </div>
 
           <div className="about__tech --slidebar" ref={slideBar}>
             <div className="slider" ref={slider}>
               <img src="/img/typescript.png" alt="" />
-              <img src="/img/webpack.png" alt="" />
+              {/* <img src="/img/webpack.png" alt="" /> */}
               <img src="/img/node.png" alt="" />
               <img src="/img/redux.png" alt="" />              
               <img src="/img/mysql.png" alt="" />
